@@ -9,10 +9,10 @@ Projects
 Throughout this bootcamp, I have worked on several projects applying the techniques learned in class. These projects have included:
 
 Projects:
-Predicting Boston housing prices using a neural network.
-Classifying images of clothing items using a convolutional neural network.
-Identifying different types of flowers using a convolutional neural network.
-Conclusion
+- Predicting Boston housing prices using a neural network.
+- Classifying images of clothing items using a convolutional neural network.
+- Identifying different types of flowers using a convolutional neural network.
+
 
 Conclusion:
 Overall, the FruitPunch AI in Practice BootCamp (Online) has provided me with valuable hands-on experience in machine learning techniques, which I look forward to applying to future projects. If you have any questions or would like to learn more about my experience, please feel free to reach out.
