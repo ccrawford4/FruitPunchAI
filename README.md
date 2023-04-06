@@ -1,12 +1,10 @@
 This repository contains my code and projects from the FruitPunch AI in Practice BootCamp (Online), which I started in March 2023 and am currently enrolled in. In this bootcamp, I have gained practical experience in several machine learning techniques using various datasets. Below is a brief summary of my experience so far:
 
 Machine Learning Techniques:
-Trained models from the scikit-learn library with various datasets and evaluated the models' accuracy and R squared score.
-Used Keras API from the TensorFlow library to build neural networks and optimize their mean squared error value for predicting Boston housing prices.
-Developed a convolutional neural network from scratch using Keras packages from the TensorFlow library.
-Optimized a convolutional neural network using dropout and batch normalization to achieve 98% accuracy for the model.
-Projects
-Throughout this bootcamp, I have worked on several projects applying the techniques learned in class. These projects have included:
+- Trained models from the scikit-learn library with various datasets and evaluated the models' accuracy and R squared score.
+- Used Keras API from the TensorFlow library to build neural networks and optimize their mean squared error value for predicting Boston housing prices.
+- Developed a convolutional neural network from scratch using Keras packages from the TensorFlow library.
+- Optimized a convolutional neural network using dropout and batch normalization to achieve 98% accuracy for the model.
 
 Projects:
 - Predicting Boston housing prices using a neural network.
