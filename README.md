@@ -1,15 +1,17 @@
 This repository contains my code and projects from the FruitPunch AI in Practice BootCamp (Online), which I started in March 2023 and am currently enrolled in. In this bootcamp, I have gained practical experience in several machine learning techniques using various datasets. Below is a brief summary of my experience so far:
 
-Machine Learning Techniques:
-- Trained models from the scikit-learn library with various datasets and evaluated the models' accuracy and R squared score.
-- Used Keras API from the TensorFlow library to build neural networks and optimize their mean squared error value for predicting Boston housing prices.
-- Developed a convolutional neural network from scratch using Keras packages from the TensorFlow library.
-- Optimized a convolutional neural network using dropout and batch normalization to achieve 98% accuracy for the model.
 
-Projects:
-- Predicting Boston housing prices using a neural network.
-- Classifying images of clothing items using a convolutional neural network.
-- Identifying different types of flowers using a convolutional neural network.
+Files:
+- CNN_fashion_mnist.py:
+    - Optimized a convolutional neural network using dropout and batch normalization to achieve 98%        accuracy for the model when trained on the fashion mnist data set.
+- CNN_mnist.py:
+    Developed a convolutional neural network to train and predict items from the mnist data set
+- ML_Models.py:
+    Practiced using various machine learning techniques to evaluate different data sets from the scikit-learn library
+- NN_From_Scratch.py:
+    Built a Neural Network from scratch using scikit-learn and keras from the tensorflow library to add layers and optimize the models Mean Squared Error value until it got around 15.0
+- XGBoost.py:
+    Evaluates the same data sets as the ML_Models python file only this time using the XGBRegressor() class from the xgboost library
 
 
 Conclusion:
