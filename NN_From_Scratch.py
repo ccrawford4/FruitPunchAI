@@ -39,7 +39,7 @@ def define_model(input_shape, num_classes): # Adds layers to increase accuracy o
 
     return model
 
-num_epochs = 200
+num_epochs = 100
 input_shape = X_train[0].shape
 num_classes = y_train.shape[-1]
 
@@ -52,3 +52,13 @@ MSE = model.evaluate(X_test, y_test)
 
 # Prints out the neural network Mean Squared Error Value
 print(f'This neural network got an MSE score of {MSE[1]}')
+
+# Plotting the data:
+fig, ax = plt.subplots()
+ax.plot(history.history['loss'], label='Training Loss')
+ax.plot(history.history['mse'], label='Training MSE')
+ax.set_xlabel('Epoch')
+ax.set_ylabel('Loss/MSE')
+ax.set_title('Training History')
+ax.legend()
+plt.show()

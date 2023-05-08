@@ -10,6 +10,7 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.layers import (Input, Conv2D, MaxPooling2D, Flatten, 
                                      Dense, Dropout, BatchNormalization, Activation)
 from sklearn.preprocessing import LabelBinarizer
+import matplotlib.pyplot as plt
 
 (X_train, y_train), (X_test, y_test) = mnist.load_data() # Trains the data
 X_train = X_train.reshape(X_train.shape[0], X_train.shape[1], X_train.shape[2], 1)
@@ -37,7 +38,7 @@ def define_cnn(input_shape, num_classes): # Defines the CNN
     model.add(Activation("relu"))
     model.add(Dropout(0.2))
     # second CONV => RELU => CONV => RELU
-
+    
     model.add(Conv2D(64, (2,2), padding="same"))
     model.add(BatchNormalization())
     model.add(Activation("relu"))
@@ -66,3 +67,12 @@ score = modelA.evaluate(X_test, y_test, verbose=0)
 print("MNIST DATA: ") # Prints out the amount lost and the accuracy of the model at the end
 print("Test loss:", score[0])
 print("Test accuracy:", score[1])
+
+fig, ax = plt.subplots()
+ax.plot(H.history['loss'], label='Training Loss')
+ax.plot(H.history['accuracy'], label='Training Accuracy')
+ax.set_xlabel('Epoch')
+ax.set_ylabel('Training Loss')
+ax.set_title('Training History')
+ax.legend()
+plt.show()
