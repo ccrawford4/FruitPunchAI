@@ -1,4 +1,4 @@
-This repository contains my code and projects from the FruitPunch AI in Practice BootCamp (Online), which I started in March 2023 and am currently enrolled in. In this bootcamp, I have gained practical experience in several machine learning techniques using various datasets. Below is a brief summary of my experience so far:
+This repository contains my code and projects from the FruitPunch AI in Practice BootCamp (Online), which I started in March 2023 and finished in April 2023. In this bootcamp, I have gained practical experience in several machine learning techniques using various datasets. Below is a brief summary of my experience so far:
 
 
 Files:
